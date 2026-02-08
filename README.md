@@ -1,5 +1,12 @@
-Student A BrancH
+# README
 
+This PR resolves a merge conflict in the README.md file where both contributors edited the Features section. The final version keeps both contributions and ensures no information was lost.
+
+---
+
+## Student A Branch Questions
+
+```json
 {
   "id": "Q1",
   "topic": "Continuous Integration",
@@ -13,18 +20,3 @@ Student A BrancH
   "answerIndex": 1,
   "explanation": "Continuous Integration aims to detect integration issues early."
 }
-
-
-Field Descriptions
-
-id: Unique identifier for the question (e.g., "Q1")
-
-topic: The DevOps topic this question belongs to (e.g., "Continuous Integration")
-
-question: The text of the question
-
-options: An array of possible answer options
-
-answerIndex: 0-based index indicating the correct option in the options array
-
-explanation: Provides feedback or reasoning for the correct answer
