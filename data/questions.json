@@ -1,0 +1,269 @@
+{
+    "questions": [
+      {
+        "id": "Q1",
+        "topic": "Continuous Integration",
+        "question": "What is the primary goal of Continuous Integration (CI)?",
+        "options": [
+          "Automatically deploy to production",
+          "Frequently integrate code changes into a shared repository",
+          "Eliminate the need for testing",
+          "Remove the need for branches"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Integration aims to detect integration issues early by integrating changes frequently."
+      },
+      {
+        "id": "Q2",
+        "topic": "Version Control Systems",
+        "question": "What is the main purpose of a version control system like Git?",
+        "options": [
+          "To design user interfaces",
+          "To track and manage changes to source code over time",
+          "To run containers",
+          "To replace testing"
+        ],
+        "answerIndex": 1,
+        "explanation": "Version control tracks changes, supports collaboration, and helps restore older versions when needed."
+      },
+      {
+        "id": "Q3",
+        "topic": "The DevOps Culture",
+        "question": "Which statement best describes DevOps culture?",
+        "options": [
+          "Developers and operations work separately with different goals",
+          "DevOps focuses on collaboration, shared responsibility, and continuous improvement",
+          "DevOps avoids automation to reduce risk",
+          "DevOps means no documentation is needed"
+        ],
+        "answerIndex": 1,
+        "explanation": "DevOps culture encourages collaboration and shared ownership to deliver reliable software faster."
+      },
+      {
+        "id": "Q4",
+        "topic": "Infrastructure as Code",
+        "question": "What does Infrastructure as Code (IaC) mean?",
+        "options": [
+          "Buying physical servers for every deployment",
+          "Managing infrastructure using code and automation tools",
+          "Writing code only for frontend applications",
+          "Running software without monitoring"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC uses code to provision and manage infrastructure consistently and repeatably."
+      },
+      {
+        "id": "Q5",
+        "topic": "Plan with DevOps",
+        "question": "Why is planning important in DevOps?",
+        "options": [
+          "It removes the need for automation",
+          "It helps teams align on priorities, deliverables, and timelines",
+          "It prevents continuous integration",
+          "It replaces collaboration"
+        ],
+        "answerIndex": 1,
+        "explanation": "Planning helps teams decide what to build next and how to deliver it effectively."
+      }
+      ,
+    {
+      "id": "Q6",
+      "topic": "Continuous Delivery",
+      "question": "What is the main goal of Continuous Delivery?",
+      "options": [
+        "Deploy every change to production automatically",
+        "Keep software in a deployable state with frequent reliable releases",
+        "Remove the need for version control",
+        "Stop writing automated tests"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Delivery ensures software is always ready to be released safely."
+    },
+    {
+      "id": "Q7",
+      "topic": "Continuous Deployment",
+      "question": "How is Continuous Deployment different from Continuous Delivery?",
+      "options": [
+        "Continuous Deployment automatically deploys changes to production after passing tests",
+        "Continuous Deployment requires manual builds",
+        "Continuous Delivery always deploys automatically to production",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Deployment pushes every successful change directly to production."
+    },
+    {
+      "id": "Q8",
+      "topic": "Version Control Systems",
+      "question": "What does a Pull Request (PR) help with?",
+      "options": [
+        "Requesting review and merging changes into the main branch",
+        "Deleting repository history",
+        "Running Docker containers",
+        "Stopping CI pipelines"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pull Requests allow team members to review and approve changes before merging."
+    },
+    {
+      "id": "Q9",
+      "topic": "The DevOps Culture",
+      "question": "Which practice supports a strong DevOps culture?",
+      "options": [
+        "Blaming individuals for failures",
+        "Shared ownership and continuous feedback",
+        "Avoiding communication",
+        "Releasing software once per year"
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps culture promotes collaboration, feedback, and shared responsibility."
+    },
+    {
+      "id": "Q10",
+      "topic": "Continuous Integration",
+      "question": "Why are automated tests important in Continuous Integration?",
+      "options": [
+        "They slow development",
+        "They catch issues early when changes are integrated",
+        "They remove the need for developers",
+        "They eliminate code reviews"
+      ],
+      "answerIndex": 1,
+      "explanation": "Automated tests detect problems early and keep the main branch stable."
+    }
+     ,
+    {
+      "id": "Q11",
+      "topic": "Infrastructure as Code",
+      "question": "What is a major benefit of Infrastructure as Code (IaC)?",
+      "options": [
+        "Infrastructure becomes harder to reproduce",
+        "Consistent and repeatable infrastructure setup",
+        "More manual configuration is required",
+        "It removes the need for version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC makes infrastructure provisioning consistent, repeatable, and easier to manage."
+    },
+    {
+      "id": "Q12",
+      "topic": "Plan with DevOps",
+      "question": "Which item is commonly used to plan and prioritize DevOps work?",
+      "options": [
+        "A backlog of tasks/user stories",
+        "Only emails and chats",
+        "Random notes without priority",
+        "No tracking system"
+      ],
+      "answerIndex": 0,
+      "explanation": "A backlog helps teams plan, prioritize, and track work items."
+    },
+    {
+      "id": "Q13",
+      "topic": "Version Control Systems",
+      "question": "What is the purpose of 'git branch'?",
+      "options": [
+        "To list, create, or manage branches",
+        "To upload code to GitHub",
+        "To delete the repository",
+        "To run automated tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "'git branch' is used to view and manage branches in a Git repository."
+    },
+    {
+      "id": "Q14",
+      "topic": "Continuous Delivery",
+      "question": "In Continuous Delivery, what is typically the manual step?",
+      "options": [
+        "Approving and triggering deployment to production",
+        "Running unit tests",
+        "Building the project",
+        "Committing code changes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery keeps software ready, but production deployment is often a manual approval."
+    },
+    {
+      "id": "Q15",
+      "topic": "The DevOps Culture",
+      "question": "What does 'shared responsibility' mean in DevOps?",
+      "options": [
+        "Only operations handles reliability",
+        "Only developers handle releases",
+        "Both development and operations share ownership of delivery and reliability",
+        "No one is responsible for failures"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps teams share responsibility for delivering software and keeping systems reliable."
+    }
+    ,
+    {
+      "id": "Q16",
+      "topic": "Continuous Deployment",
+      "question": "What is required for successful Continuous Deployment?",
+      "options": [
+        "Manual testing only",
+        "Strong automated testing and reliable pipelines",
+        "No monitoring",
+        "Avoiding version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Deployment relies on strong automated tests and reliable CI/CD pipelines."
+    },
+    {
+      "id": "Q17",
+      "topic": "Continuous Integration",
+      "question": "How often should developers integrate their code in CI?",
+      "options": [
+        "Once a year",
+        "Only at the end of the project",
+        "Frequently (daily or multiple times a day)",
+        "Never"
+      ],
+      "answerIndex": 2,
+      "explanation": "Frequent integration reduces merge conflicts and helps detect issues early."
+    },
+    {
+      "id": "Q18",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool is commonly used for Infrastructure as Code?",
+      "options": [
+        "Terraform",
+        "Photoshop",
+        "Microsoft Word",
+        "Slack"
+      ],
+      "answerIndex": 0,
+      "explanation": "Terraform is a popular Infrastructure as Code tool used to define infrastructure with code."
+    },
+    {
+      "id": "Q19",
+      "topic": "Plan with DevOps",
+      "question": "What is a sprint in DevOps or Agile planning?",
+      "options": [
+        "A long-term five-year plan",
+        "A fixed time period to complete planned work",
+        "A production outage",
+        "A deployment tool"
+      ],
+      "answerIndex": 1,
+      "explanation": "A sprint is a short, fixed time-box used to complete planned tasks."
+    },
+      {
+      "id": "Q20",
+      "topic": "Version Control Systems",
+      "question": "What does the 'git merge' command do?",
+      "options": [
+        "Combines changes from one branch into another",
+        "Deletes commit history",
+        "Creates a new repository",
+        "Stops CI pipelines"
+      ],
+      "answerIndex": 0,
+      "explanation": "git merge integrates changes from one branch into the current branch."
+    
+    
+    
+      }
+    ]}
