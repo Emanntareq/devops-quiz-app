@@ -130,4 +130,140 @@
       ],
       "answerIndex": 1,
       "explanation": "Automated tests detect problems early and keep the main branch stable."
-    }]}
+    }
+     ,
+    {
+      "id": "Q11",
+      "topic": "Infrastructure as Code",
+      "question": "What is a major benefit of Infrastructure as Code (IaC)?",
+      "options": [
+        "Infrastructure becomes harder to reproduce",
+        "Consistent and repeatable infrastructure setup",
+        "More manual configuration is required",
+        "It removes the need for version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC makes infrastructure provisioning consistent, repeatable, and easier to manage."
+    },
+    {
+      "id": "Q12",
+      "topic": "Plan with DevOps",
+      "question": "Which item is commonly used to plan and prioritize DevOps work?",
+      "options": [
+        "A backlog of tasks/user stories",
+        "Only emails and chats",
+        "Random notes without priority",
+        "No tracking system"
+      ],
+      "answerIndex": 0,
+      "explanation": "A backlog helps teams plan, prioritize, and track work items."
+    },
+    {
+      "id": "Q13",
+      "topic": "Version Control Systems",
+      "question": "What is the purpose of 'git branch'?",
+      "options": [
+        "To list, create, or manage branches",
+        "To upload code to GitHub",
+        "To delete the repository",
+        "To run automated tests"
+      ],
+      "answerIndex": 0,
+      "explanation": "'git branch' is used to view and manage branches in a Git repository."
+    },
+    {
+      "id": "Q14",
+      "topic": "Continuous Delivery",
+      "question": "In Continuous Delivery, what is typically the manual step?",
+      "options": [
+        "Approving and triggering deployment to production",
+        "Running unit tests",
+        "Building the project",
+        "Committing code changes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Delivery keeps software ready, but production deployment is often a manual approval."
+    },
+    {
+      "id": "Q15",
+      "topic": "The DevOps Culture",
+      "question": "What does 'shared responsibility' mean in DevOps?",
+      "options": [
+        "Only operations handles reliability",
+        "Only developers handle releases",
+        "Both development and operations share ownership of delivery and reliability",
+        "No one is responsible for failures"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps teams share responsibility for delivering software and keeping systems reliable."
+    }
+    ,
+    {
+      "id": "Q16",
+      "topic": "Continuous Deployment",
+      "question": "What is required for successful Continuous Deployment?",
+      "options": [
+        "Manual testing only",
+        "Strong automated testing and reliable pipelines",
+        "No monitoring",
+        "Avoiding version control"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Deployment relies on strong automated tests and reliable CI/CD pipelines."
+    },
+    {
+      "id": "Q17",
+      "topic": "Continuous Integration",
+      "question": "How often should developers integrate their code in CI?",
+      "options": [
+        "Once a year",
+        "Only at the end of the project",
+        "Frequently (daily or multiple times a day)",
+        "Never"
+      ],
+      "answerIndex": 2,
+      "explanation": "Frequent integration reduces merge conflicts and helps detect issues early."
+    },
+    {
+      "id": "Q18",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool is commonly used for Infrastructure as Code?",
+      "options": [
+        "Terraform",
+        "Photoshop",
+        "Microsoft Word",
+        "Slack"
+      ],
+      "answerIndex": 0,
+      "explanation": "Terraform is a popular Infrastructure as Code tool used to define infrastructure with code."
+    },
+    {
+      "id": "Q19",
+      "topic": "Plan with DevOps",
+      "question": "What is a sprint in DevOps or Agile planning?",
+      "options": [
+        "A long-term five-year plan",
+        "A fixed time period to complete planned work",
+        "A production outage",
+        "A deployment tool"
+      ],
+      "answerIndex": 1,
+      "explanation": "A sprint is a short, fixed time-box used to complete planned tasks."
+    },
+      {
+      "id": "Q20",
+      "topic": "Version Control Systems",
+      "question": "What does the 'git merge' command do?",
+      "options": [
+        "Combines changes from one branch into another",
+        "Deletes commit history",
+        "Creates a new repository",
+        "Stops CI pipelines"
+      ],
+      "answerIndex": 0,
+      "explanation": "git merge integrates changes from one branch into the current branch."
+    
+    
+    
+      }
+    ]}
